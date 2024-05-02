@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --primary-color: #da2030;
+    --secundary-color: #6396e9;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.ct-banner{
+    padding: 0 !important;
+}
+
+.banner{
+    width: 100%;
+}
+
+header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.esp-header{
+    background-color: white;
+    width: 18rem;
+    height: 40px;
+}
+
+.header img{
+    width: 120px;
+}
+
+nav{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    color: #074470;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0 1.2rem;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    border: 3px solid #fff;
+    border-radius: 20px;
+    color: white !important;
+    padding: 15px 25px;
+}
+
+section{
+    padding: 1rem 5rem;
+}
+
+.onde-tem{
+    background-color: var(--secundary-color);
+    background-image: url(img/onde-tem-arco-bg.ac3c54c028a6d1db715c.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+h3{
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+.select{
+    display: block;
+    background-color: #6396e98d;
+    font-size: 1.2rem;
+    padding: .5rem 0;
+    border-radius: 50px;
+    border: 1px solid #000;
+    margin-bottom: 1rem;
+    min-width: 250px;
+}
+
+.milk-onde-tem{
+    height: 110vh;
+    top: 0;
+    z-index: 500;
+}
+
+.franqueado{
+    background-color: #edb14c;
+    background-image: url(img/seja-um-franqueado-arco-loja.2ef9d9c860112657ee91.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.franq-titulo{
+    margin-top: -60px;
+    width: 350px;
+    margin-bottom: 3rem;
+}
+
+.ct-franq{
+    width: 340px;
+    margin-left: -250px;
+}
+
+.txt-franq{
+    color: #64270b;
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+
+.ct-btn-franq{
+    border-radius: 10px;
+    border: 4px solid var(--primary-color);
+    padding: 0 .5rem .2rem;
+    margin: 4rem 0;
+}
+
+.btn-franq{
+    color: var(--primary-color);
+    font-size: 3rem;
+    line-height: 3rem;
+    
+    width: 330px;
+    text-decoration: none;
+    text-align: left;
+    margin-bottom: 2rem;
+    font-weight: 900;
+}
+
+.marca{
+    background-color: #f19398;
+    background-image: url(img/download.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt-marca{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.casquinha{
+    height: 500px;
+}
+
+.lg-pb{
+    width: 180px;
+    margin-top: 100px;
+    margin-left: -260px;
+    z-index: 100;
+}
+
+.lg-cl{
+    z-index: 101;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: -40px;
+}
+
+.box-img{
+    display: flex;
+    align-items: center;
+    margin-right: 4rem;
+}
+
+.btn-marca{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem;
+}
+
+.logo-footer{
+    width: 120px;
+    margin-right: 1rem;
+}
+
+h4{
+    font-size: 1.8rem;
+    color: var(--secundary-color);
+    font-weight: 900;
+}
+h5{
+    font-size: 1.4rem;
+    color: var(--secundary-color);
+    font-weight: 900;
+}
+
+footer p {
+    color: #788790;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    margin: .5rem 0;
+}
+
+.d-flex img{
+    margin-right: .5rem;
+}
+
+.ct-footer{
+    margin-left: 2rem;
+}
+
+.ct-footer a{
+    color: #788790;
+    text-decoration: none;
+    display: block;
+}
